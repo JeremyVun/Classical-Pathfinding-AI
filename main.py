@@ -1,9 +1,6 @@
 from grid import build_grid
 from pos import Pos
 
-from bfs import bfs
-from dfs import dfs
-
 
 def main():
   # Initialise grid

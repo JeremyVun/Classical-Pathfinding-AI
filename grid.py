@@ -1,8 +1,5 @@
 # import symbols from config.json so we don't get bugs checking different symbol values
-from config.config import config
-unexplored_symbol = config["unexplored_symbol"]
-goal_symbol = config["goal_symbol"]
-wall_symbol = config["wall_symbol"]
+from config.config import *
 
 
 class Grid:
@@ -33,9 +30,6 @@ class Grid:
 
 # Builds the grid
 def build_grid(goal, walls):
-  width = config["window_width"]
-  height = config["window_height"]
-
   grid = []
   for i in range(height):
     row = []

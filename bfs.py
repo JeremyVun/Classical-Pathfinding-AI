@@ -1,13 +1,7 @@
 import time
 
 # import symbols from config.json so we don't get bugs checking different symbol values
-from config.config import config
-goal_symbol = config["goal_symbol"]
-money_symbol = config["money_symbol"]
-explored_symbol = config["explored_symbol"]
-wall_symbol = config["wall_symbol"]
-loop_delay = config["loop_delay"]
-
+from config.config import *
 from grid import get_path
 
 
